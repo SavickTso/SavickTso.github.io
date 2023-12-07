@@ -3,6 +3,16 @@
  ******************************************************************************/
 
 // Typography
+@font-face {
+  font-family: 'Arcade';
+  src: url("/retro-pixel-arcade.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Arcade', 'Courier New', Courier, monospace;
+}
 
 p,
 h1,

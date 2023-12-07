@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-08-29 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper Robotic Assistance for Extended Sensing, Locomotion and Manipulation by Gaze Control published in ROMAN2023
