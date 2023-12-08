@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - savicktso
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - SavickTso/KendoMotionPrediction
+  - SavickTso/Himoseg
+  - SavickTso/python_stereo_camera_calibrate_ximea
+  - YongpengCao-sony/franka_ros2

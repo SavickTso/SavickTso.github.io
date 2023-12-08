@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Yongpeng
+first_name: 
 middle_name: 
-last_name: Cao
+last_name: Yongpeng Cao
 email: savicktso@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   You got me!
@@ -28,8 +28,8 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: light       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: default           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: cobalt          # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
@@ -41,7 +41,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -51,7 +51,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 1200px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -67,11 +67,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: SavickTso # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: yongpeng-cao # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -119,9 +119,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: savicktso # blog_name will be displayed in your blog page
+blog_nav_title:  # your blog must have a title for it to be displayed in the nav bar
+blog_description: blank
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -129,7 +129,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -177,7 +177,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 

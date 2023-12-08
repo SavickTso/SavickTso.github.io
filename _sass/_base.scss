@@ -16,7 +16,9 @@ body {
 
 p,
 h1,
-h2,
+h2  {
+  color: var(--global-h2);
+}
 h3,
 h4,
 h5,
@@ -366,7 +368,7 @@ blockquote {
 
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-h1);
         transition-property: all 0.2s ease-in-out;
       }
 
@@ -511,6 +513,7 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  color: var(--global-h1);
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }

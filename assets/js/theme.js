@@ -95,7 +95,7 @@ let initTheme = (theme) => {
     }
   }
 
-  setTheme(theme);
+  setTheme("dark");
 };
 
 initTheme(localStorage.getItem("theme"));
