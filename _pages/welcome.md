@@ -1,0 +1,6 @@
+---
+layout: welcomepage
+permalink: /
+
+---
+YO!

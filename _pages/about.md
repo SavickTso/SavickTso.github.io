@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /
+permalink: /about/
 subtitle: <a href='#'>UTokyo, IIS, Yamakawa lab</a> 
 
 profile:
