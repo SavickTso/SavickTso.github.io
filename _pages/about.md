@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>D2</a> UTokyo, IIS, Yamakawa lab.
+subtitle: <a href='#'>UTokyo, IIS, Yamakawa lab</a> 
 
 profile:
   align: right
