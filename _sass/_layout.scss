@@ -6,10 +6,21 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
-
+  background-image: url('matrix.gif');
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
   }
+}
+
+body::before {
+  content: '';
+  position: fixed; /* or 'absolute' if the body has a relative position */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8); /* Black overlay with 50% opacity */
+  z-index: -1; /* Ensures the overlay is behind the content */
 }
 
 body.fixed-top-nav {
