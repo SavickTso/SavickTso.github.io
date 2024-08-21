@@ -23,6 +23,16 @@
   type: time_table
   contents:
     - title: Technical Assistant
+      institution: Central Research Laboratory, Hitachi
+      year: 2024
+      description:
+        - Human motion prediction
+    - title: Reseach Assistant
+      institution: YAMAKAWA Labratory, The University of Tokyo
+      year: 2024
+      description:
+        - Deformable linear object motion tracking and prediction
+    - title: Technical Assistant
       institution: ISHIKAWA Labratory, Tokyo University of Science
       year: 2023
     - title: Robotics Intern
