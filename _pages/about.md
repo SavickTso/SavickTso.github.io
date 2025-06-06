@@ -24,6 +24,8 @@ I received my M.S. degree from the University of Tokyo in 2022, and B.S. from Be
 
 Former intern at SonyAI and Hitachi R&D.
 
+**OPEN TO WORK NOW:** let's have a talk! I am looking for both academic and industry jobs. 
+
 <!-- I am looking for opportunities of internship in ML, CV, Robotics field. Contact me if you are willing to offer any. (Doesn't need to be in Tokyo area)  -->
 
 

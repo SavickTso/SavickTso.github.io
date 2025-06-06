@@ -22,11 +22,11 @@
 - title: Internship
   type: time_table
   contents:
-    - title: Technical Assistant
-      institution: Central Research Laboratory, Hitachi
+    - title: Intern
+      institution: Hitachi R&D
       year: 2024
       description:
-        - Human motion prediction
+        - VLM-based zero-shot human action understanding
     - title: Reseach Assistant
       institution: YAMAKAWA Labratory, The University of Tokyo
       year: 2024
@@ -35,11 +35,13 @@
     - title: Technical Assistant
       institution: ISHIKAWA Labratory, Tokyo University of Science
       year: 2023
+      description: 
+        - 3D gaze estimation
     - title: Robotics Intern
       institution: SonyAI, Tokyo
       year: 2023
       description:
-        - Robot manipulation
+        - Robot arm manipulation, ROS2 controller development, and simulation
     - title: Technical Assistant
       institution: ISHIKAWA Labratory, University of Tokyo
       year: 2022
