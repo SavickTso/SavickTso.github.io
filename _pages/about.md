@@ -18,13 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Currently 3rd year Ph.D. student at the University of Tokyo, working on semantic human action recognition, high-speed vision system and human-robot intereaction.
+Currently 3.5 year Ph.D. student at the University of Tokyo, working on semantic human action recognition, high-speed vision system and human-robot intereaction.
 
 I received my M.S. degree from the University of Tokyo in 2022, and B.S. from Beijing University of Chemical Technology in 2020.
 
-Former intern at SonyAI and Hitachi R&D.
+Former intern at SonyAI and Hitachi R&D. Now a part-time research engineer at Nablas.
 
-**OPEN TO WORK NOW:** let's have a talk! I am looking for both academic and industry jobs. 
+<!-- **OPEN TO WORK NOW:** let's have a talk! I am looking for both academic and industry jobs.  -->
 
 <!-- I am looking for opportunities of internship in ML, CV, Robotics field. Contact me if you are willing to offer any. (Doesn't need to be in Tokyo area)  -->
 
