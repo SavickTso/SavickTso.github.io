@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /about/
-subtitle: <a href='#'>UTokyo, IIS, Yamakawa lab</a> 
+subtitle: <a href='#'>Nablas</a> 
 
 profile:
   align: right
@@ -18,11 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Currently 3.5 year Ph.D. student at the University of Tokyo, working on semantic human action recognition, high-speed vision system and human-robot intereaction.
+I am a full-time research engineer at [Nablas](https://www.nablas.com/en). I worked on semantic human action recognition, high-speed vision system and human-robot intereaction.
 
-I received my M.S. degree from the University of Tokyo in 2022, and B.S. from Beijing University of Chemical Technology in 2020.
+I received my Ph.D. and M.S. degree from [Yamakawa lab](http://www.hfr.iis.u-tokyo.ac.jp/), the University of Tokyo, and B.S. from Beijing University of Chemical Technology in 2020.
 
-Former intern at SonyAI and Hitachi R&D. Now a part-time research engineer at Nablas.
+Former intern at SonyAI and Hitachi R&D, research assistant at the University of Tokyo and Tokyo University of Science.
 
 <!-- **OPEN TO WORK NOW:** let's have a talk! I am looking for both academic and industry jobs.  -->
 
