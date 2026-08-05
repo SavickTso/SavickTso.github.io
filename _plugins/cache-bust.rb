@@ -21,7 +21,11 @@ module Jekyll
 
             def directory_files_content
                 target_path = File.join(directory, '**', '*')
-                Dir[target_path].map{|f| File.read(f) unless File.directory?(f) }.join
+                # Include the Sass entrypoint as well as its partials. The
+                # compiled CSS does not exist yet when Liquid renders <head>.
+                css_source = file_name.slice((file_name.index('assets/')..-1)).sub(/\.css$/, '.scss')
+                entrypoint_content = File.exist?(css_source) ? File.read(css_source) : ''
+                entrypoint_content + Dir[target_path].map{|f| File.read(f) unless File.directory?(f) }.join
             end
 
             def file_content
@@ -43,7 +47,10 @@ module Jekyll
         end
 
         def bust_css_cache(file_name)
-            CacheDigester.new(file_name: file_name, directory: 'assets/_sass').digest!
+            # Hash both main.scss and the root-level Sass partials. Hashing the
+            # old, nonexistent assets/_sass path always produced d41d8... (the
+            # MD5 of empty content), so browsers could keep stale compiled CSS.
+            CacheDigester.new(file_name: file_name, directory: '_sass').digest!
         end
     end
 end
