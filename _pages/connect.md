@@ -26,7 +26,7 @@ description: Connect with Yongpeng Cao — research engineer working on human mo
       </p>
       <div class="connect-primary-actions">
         <a class="connect-button connect-button-primary" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">
-          <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Connect &amp; say hi
+          <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Connect &amp; Say Hi
         </a>
         <a class="connect-button" href="{{ '/assets/pdf/Resume2026.pdf' | relative_url }}" target="_blank" rel="noopener">
           <i class="fa-solid fa-file-lines" aria-hidden="true"></i> View CV
