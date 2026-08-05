@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-cv_pdf: Resume2025.pdf
+cv_pdf: Resume2026.pdf
 description:
 toc:
   sidebar: left
