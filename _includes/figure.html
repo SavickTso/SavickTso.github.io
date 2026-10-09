@@ -1,9 +1,10 @@
 {%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
+{%- assign img_extension = include.path | split: "." | last | downcase -%}
 
 <figure>
 
   <picture>
-    {% if site.imagemagick.enabled %}
+    {% if site.imagemagick.enabled and img_extension != 'svg' %}
     {% for i in site.imagemagick.widths -%}
       <source
         class="responsive-img-srcset"

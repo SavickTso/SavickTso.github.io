@@ -818,6 +818,132 @@ footer.sticky-bottom {
   }
 }
 
+// Research project pages
+
+.paper-page {
+  --paper-accent: var(--global-theme-color);
+
+  .paper-hero {
+    margin: 1.5rem 0 1.25rem;
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .paper-authors {
+    font-size: 1.05rem;
+    text-align: center;
+    margin-bottom: 0.85rem;
+  }
+
+  .paper-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.55rem;
+    margin-bottom: 1.75rem;
+
+    .btn {
+      color: var(--global-text-color);
+      border-color: var(--global-divider-color);
+      text-transform: none;
+
+      &:hover {
+        color: var(--global-hover-text-color);
+        background: var(--paper-accent);
+        border-color: var(--paper-accent);
+      }
+    }
+  }
+
+  .paper-tldr {
+    border-left: 4px solid var(--paper-accent);
+    background: var(--global-code-bg-color);
+    padding: 1rem 1.15rem;
+    margin: 1.75rem 0 2.25rem;
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+  }
+
+  .paper-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1.25rem 0 1.75rem;
+  }
+
+  .paper-summary-card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.6rem;
+    padding: 1.1rem;
+
+    h3 {
+      font-size: 1rem;
+      margin: 0.4rem 0 0.55rem;
+    }
+
+    p {
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+      line-height: 1.55;
+      margin: 0;
+    }
+  }
+
+  .paper-step {
+    color: var(--paper-accent);
+    font-family: monospace;
+    font-weight: 700;
+  }
+
+  .paper-placeholder {
+    min-height: 15rem;
+    border: 1px dashed var(--global-divider-color);
+    border-radius: 0.6rem;
+    background: var(--global-code-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    padding: 2rem;
+    text-align: center;
+
+    strong {
+      color: var(--paper-accent);
+    }
+
+    span {
+      color: var(--global-text-color-light);
+      max-width: 36rem;
+    }
+
+    &--compact {
+      min-height: 10rem;
+    }
+  }
+
+  .paper-page-note {
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    margin-top: 1.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .paper-page .paper-summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
